@@ -1,0 +1,95 @@
+\documentclass[9pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{rotating}
+
+\title{AerE 361:Lab 3}
+\date{02-05-2019}
+\author{Jose Prado}
+
+\begin{document}
+\maketitle
+\newpage
+
+\section{Section 1: Cheat Sheet}
+
+\begin{sidewaystable}
+\caption{Section 1: Cheat Sheet}
+\begin{tabular}{|c|c|p{4.5in}|}
+\hline
+Command & Option & What this command/option combination does \\
+\hline
+
+\hline
+ \texttt{kill} & \texttt{-9} & Kills a \emph{process} (a running instance
+ of a program) identified from its PID \\
+\hline
+ \texttt{git add} & \texttt{filename} & Adds the file to be ready to be committed to the repository.\\
+ \texttt{git commit} & \texttt{-m filename} & Commits the file and makes a "checkpoint" for document to refer to.\\
+\hline
+ \texttt{git push} & \texttt{origin develop} & Pushes all changes to the repository.\\
+\hline
+ \texttt{git status} & \texttt{none} & Displays important file tracking information to
+ user; such as which //
+ branch is being developed in, what files are committed, what
+ are the untracked files.\\
+\hline
+ \texttt{find} & \texttt{.name "string"} & Identifies all of the files with the string
+ included in the file name.\\
+\hline
+ \texttt{grep} & \texttt{text2Compare} & Prints out lines that match the text2Compare. Can
+ be piped with ls to search for specific items in a file directory.\\
+\hline
+ \texttt{ls} & \texttt{None} & Be inside directory of interest. Allows for all files
+ inside a directory to be seen. Can be combined with grep and awk commands to identify
+ specific strings or pattern in the file directory.\\
+\hline
+ \texttt{git add} & \texttt{filename} & Adds the file to be ready to be committed to the repository\\
+\hline
+ \texttt{git push} & \texttt{origin develop} & Pushes all changes to the repository.\\
+\hline
+ \texttt{git status} & \texttt{none} & Displays important file tracking information to
+ user; such as which branch is being developed in, what files are committed, what
+ are the untracked files.\\
+\hline
+ \texttt{find} & \texttt{.name "string"} & Identifies all of the files with the string
+ included in the file name.\\
+\hline
+ \texttt{grep} & \texttt{text2Compare} & Prints out lines that match the text2Compare. Can
+ be piped with ls to search for specific items in a file directory.\\
+\hline
+ \texttt{ls} & \texttt{None} & Be inside directory of interest. Allows for all files
+ inside a directory to be seen. Can be combined with grep and awk commands to identify
+ specific strings or pattern in the file directory.\\
+\hline
+ \texttt{awk} & \texttt{"filename" pattern (action statement)} & Scans through a file
+ and looks for pattern specified in "pattern". If found, the action in the "action
+ statement" is performed.\\
+\hline
+ \texttt{sed} & \texttt{'(pattern to look for) (replacement to pattern if found'} & Scanner $
+ to parse through data and edit information from the data. Can be used to identify and repla$
+ patters/strings inside of files with a user-specified input.\\
+\hline
+\end{tabular}
+\end{sidewaystable}
+
+\newpage
+
+\section{Section 2: Links to Resources Used}
+
+\begin{itemize}
+    \item{\texttt{Website with guidance on how to count lines using linux.}\\
+\texttt{http://cmdlinetips.com/2011/08/how-to-count-the-number-of-lines-words-and-characters}\\
+}
+ \item{\texttt{Information on how to retrieve data columnwise from csv file.}\\
+ \texttt{https://www.linuxquestions.org/questions/linux-newbie-8/retrieve-data-column-wise-\\
+ from-csv-files-4175523865/}}
+ \item{\texttt{Information for some more specific uses of grep command.}\\
+ \texttt{https://stackoverflow.com/questions/9574764/bash-command-to-output-the-filename-which\\
+  -contains-specific-strings.}\\}
+ \item{\texttt{Examples on using "find" to find specific information.\\}
+ \texttt{https://stackoverflow.com/questions/13131048/linux-find-file-names-with-given-string}\\}
+ \item{\texttt{Wikipedia page on information on how to format tables with LaTeX.\\}
+ \texttt{https://en.wikibooks.org/wiki/LaTeX/Tables}\\}
+
+\end{itemize}
+\end{document}
